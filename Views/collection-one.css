@@ -1,7 +1,7 @@
-@import url('Layouts/home/home-desktop.css');
-@import url('Parts/colors-backgrounds-texture/variables.css');
-@import url('Parts/text-fonts/text-fonts.css');
-@import url('Parts/nav/nav.css');
+@import url('/Layouts/home/home-desktop.css');
+@import url('/Parts/colors-backgrounds-texture/variables.css');
+@import url('/Parts/text-fonts/text-fonts.css');
+@import url('/Parts/nav/nav.css');
 *{
     margin: 0;
     padding: 0;
