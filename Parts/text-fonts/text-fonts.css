@@ -1,0 +1,79 @@
+@import url("/Views/collection-one.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--FS01);
+  line-height: 100%;
+}
+
+h3, tr {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: var(--FS02);
+  -webkit-text-size-adjust: 80%;
+     -moz-text-size-adjust: 80%;
+      -ms-text-size-adjust: 80%;
+          text-size-adjust: 80%;
+  line-height: 135%;
+}
+
+h3 a, tr a {
+  text-decoration: underline;
+  cursor: help;
+}
+
+h4, .projects {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--FS03);
+  line-height: 135%;
+  /* or 15px */
+  letter-spacing: 0.045em;
+}
+
+h4 a, .projects a {
+  text-decoration: underline;
+  cursor: help;
+}
+
+.projects {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--FS06);
+  line-height: 100%;
+  /* or 15px */
+}
+
+.projects a {
+  text-decoration: underline;
+  cursor: help;
+}
+
+sub {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--FS04);
+  line-height: 100%;
+}
+
+ul, .text-wrap a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--FS05);
+}
+
+button {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 100%;
+}
+/*# sourceMappingURL=text-fonts.css.map */

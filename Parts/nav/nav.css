@@ -1,0 +1,31 @@
+nav {
+  height: 0px;
+  width: 100vw;
+  padding: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+}
+
+nav .logo {
+  height: .7rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  left: calc(50% + 150px);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+nav .menu {
+  height: .7rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto 2.5rem auto auto;
+}
+/*# sourceMappingURL=nav.css.map */

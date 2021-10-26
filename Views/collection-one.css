@@ -1,0 +1,16 @@
+@import url('/Layouts/home/home-desktop.css');
+@import url('/Layouts/home/home-mobile.css');
+@import url('/Parts/colors-backgrounds-texture/variables.css');
+@import url('/Parts/text-fonts/text-fonts.css');
+@import url('/Parts/nav/nav.css');
+@import url('/Parts/text-fonts/text-fonts.css');
+@import url('/Parts/tool-bar/toolbar-desktop.css');
+@import url('/Parts/tool-bar/toolbar-mobile.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}

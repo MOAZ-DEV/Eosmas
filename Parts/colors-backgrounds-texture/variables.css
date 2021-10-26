@@ -1,0 +1,83 @@
+:root {
+  --accent-01: #2d75ff;
+  --accent-02: #2d76ff12;
+  --text-01: #ffffff;
+  --text-02: #ffffff5f;
+  --dark-03: #18181885;
+  --xs: 0;
+  --sm: 576px;
+  --md: 768px;
+  --lg: 992px;
+  --xl: 1200px;
+  --xxl: 1400px;
+}
+
+@media screen and (max-width: 576px) {
+  body .menu-side {
+    display: none;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  body nav .logo {
+    left: 50%;
+  }
+  body nav .menu:focus-visible .menu-side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .projects-wrap .project {
+    max-width: 100%;
+    min-width: 100%;
+  }
+  body .projects-wrap .project h4 {
+    max-width: 100%;
+  }
+  :root {
+    --FS01: 2.5em;
+    --FS02: 1em;
+    --FS03: 0.65em;
+    --FS04: 1em;
+    --FS05: 1em;
+    --FS06: 0.35em;
+  }
+}
+
+@media screen and (max-width: 870px) and (min-width: 576px) {
+  body .menu-side {
+    display: none;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  body nav .logo {
+    left: 50%;
+  }
+  :root {
+    --FS01: 3.5em;
+    --FS02: 1em;
+    --FS03: 0.65em;
+    --FS04: 1em;
+    --FS05: 1em;
+    --FS06: 0.35em;
+  }
+}
+
+@media screen and (min-width: 870px) {
+  :root {
+    --FS01: 3.5em;
+    --FS02: 1em;
+    --FS03: 0.65em;
+    --FS04: 1em;
+    --FS05: .8em;
+    --FS06: 0.35em;
+  }
+}
+
+/*
+
+@media screen and (min-width:0) and (max-width:0) {
+    
+}
+
+*/
+/*# sourceMappingURL=variables.css.map */
